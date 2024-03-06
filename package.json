@@ -1,0 +1,19 @@
+{
+  "name": "serverless-aws-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "npx serverless offline start --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-offline": "^13.3.3"
+  },
+  "dependencies": {
+    "mongodb": "^6.4.0"
+  }
+}
